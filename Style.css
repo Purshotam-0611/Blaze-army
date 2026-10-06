@@ -1,0 +1,718 @@
+/* =================================
+   Blaze ARMY - Main Styles
+================================= */
+
+body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* =================================
+   Header
+================================= */
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+/* =================================
+   Main Section
+================================= */
+
+main {
+    padding: 60px 20px;
+}
+
+main h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+main h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+main p {
+    font-size: 18px;
+    color: #bbb;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* =================================
+   Buttons
+================================= */
+
+button {
+    margin: 10px;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 8px;
+    background: #ff6600;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff8533;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* =================================
+   About Section
+================================= */
+
+.about {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 35px 25px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background: #181818;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.7;
+    color: #ccc;
+}
+
+.about button {
+    margin-top: 15px;
+}
+
+/* =================================
+   Fade In Animation
+================================= */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* =================================
+   Services Section
+================================= */
+
+.services {
+    padding: 60px 20px;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.service-card {
+    background: #181818;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.service-card p {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: #ff6600;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+    .service-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* =================================
+   Pricing Section
+================================= */
+
+.pricing {
+    padding: 60px 20px;
+}
+
+.pricing h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.pricing-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.price-card {
+    background: #181818;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 25px 15px;
+    transition: 0.3s;
+}
+
+.price-card h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.price-card .price {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.price-card p {
+    color: #bbb;
+    line-height: 1.5;
+}
+
+.price-card:hover {
+    transform: translateY(-8px);
+    border-color: #ff6600;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+    .pricing-container {
+        grid-template-columns: 1fr;
+    }
+}
+/* =================================
+   Footer
+================================= */
+
+footer {
+    margin-top: 60px;
+    padding: 35px 20px;
+    border-top: 1px solid #333;
+    background: #0b0b0b;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #999;
+    font-size: 14px;
+    margin: 8px 0;
+}
+/* =================================
+   Navigation
+================================= */
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #bbb;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+/* =================================
+   Contact Section
+================================= */
+
+.contact {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px 20px;
+    text-align: center;
+    background: #181818;
+    border: 1px solid #333;
+    border-radius: 15px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.contact button {
+    margin-top: 15px;
+}
+#orderBox {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    background: #181818;
+    border: 1px solid #333;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#orderBox h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#selectedPlan {
+    color: #ff6600;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#orderBox input {
+    width: 90%;
+    padding: 13px;
+    margin: 5px 0;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background: #111;
+    color: white;
+    font-size: 15px;
+}
+
+#orderBox input::placeholder {
+    color: #888;
+}
+/* =================================
+   Payment Section
+================================= */
+
+.payment-box {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 35px 20px;
+    background: #181818;
+    border: 1px solid #333;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.payment-box h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#paymentPlan {
+    color: #ff6600;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.payment-note {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+.qr-placeholder {
+    width: 220px;
+    height: 220px;
+    margin: 25px auto;
+    border: 2px dashed #555;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-placeholder p {
+    font-size: 28px;
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.qr-placeholder small {
+    color: #888;
+}
+
+#transactionId {
+    width: 90%;
+    padding: 13px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background: #111;
+    color: white;
+    font-size: 15px;
+}
+/* Payment QR */
+
+.qr-placeholder img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    background: white;
+    padding: 10px;
+    border: 3px solid #ff6600;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+/* QR alignment fix */
+
+.qr-placeholder {
+    height: 220px;
+    justify-content: center;
+}
+
+.qr-placeholder p,
+.qr-placeholder small {
+    display: none;
+}
+
+.qr-placeholder img {
+    display: block;
+    margin: auto;
+}
+/* =================================
+   BLAZE ARMY — BLACK + ORANGE THEME
+================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background:
+        radial-gradient(circle at top, #2a1608 0%, #111 35%, #080808 100%);
+    color: #fff;
+}
+
+/* HEADER */
+
+header {
+    background: rgba(8, 8, 8, 0.92);
+    border-bottom: 1px solid #ff6600;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+header h2 {
+    color: #ff6600;
+    text-shadow: 0 0 12px rgba(255, 102, 0, 0.5);
+}
+
+/* NAVIGATION */
+
+nav a {
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600;
+    text-shadow: 0 0 8px rgba(255, 102, 0, 0.7);
+}
+
+/* HOME */
+
+.home {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    text-shadow: 0 0 20px rgba(255, 102, 0, 0.35);
+}
+
+.home h3 {
+    color: #ff6600;
+}
+
+/* BUTTONS */
+
+button {
+    background: linear-gradient(135deg, #ff6600, #ff3300);
+    box-shadow: 0 5px 18px rgba(255, 102, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff8533, #ff4500);
+    box-shadow: 0 8px 25px rgba(255, 102, 0, 0.45);
+}
+
+/* SECTIONS */
+
+.about,
+.service-card,
+.price-card,
+.contact,
+#orderBox,
+.payment-box {
+    background: rgba(24, 24, 24, 0.88);
+    border-color: #333;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* SERVICE CARDS */
+
+.service-card:hover {
+    border-color: #ff6600;
+    box-shadow: 0 10px 30px rgba(255, 102, 0, 0.18);
+}
+
+/* PRICING */
+
+.price-card:hover {
+    border-color: #ff6600;
+    box-shadow: 0 10px 30px rgba(255, 102, 0, 0.2);
+}
+
+.price-card .price {
+    color: #ff6600;
+    text-shadow: 0 0 10px rgba(255, 102, 0, 0.35);
+}
+
+/* ORDER BOX */
+
+#selectedPlan {
+    color: #ff6600;
+}
+
+/* PAYMENT */
+
+#paymentPlan {
+    color: #ff6600;
+}
+
+.qr-placeholder {
+    border-color: #ff6600;
+    box-shadow: 0 0 25px rgba(255, 102, 0, 0.12);
+}
+
+/* INPUTS */
+
+#orderBox input,
+#transactionId {
+    transition: 0.3s;
+}
+
+#orderBox input:focus,
+#transactionId:focus {
+    outline: none;
+    border-color: #ff6600;
+    box-shadow: 0 0 12px rgba(255, 102, 0, 0.25);
+}
+
+/* FOOTER */
+
+footer {
+    border-top-color: #ff6600;
+}
+
+footer h3 {
+    color: #ff6600;
+}
+/* =================================
+   PREMIUM HOME SECTION
+================================= */
+
+.home {
+    min-height: 78vh;
+    padding: 80px 20px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.home::before {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: #ff6600;
+    border-radius: 50%;
+    filter: blur(120px);
+    opacity: 0.12;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: blazeGlow 4s ease-in-out infinite alternate;
+}
+
+.home h1,
+.home h3,
+.home p,
+.home button {
+    position: relative;
+    z-index: 1;
+}
+
+.home h1 {
+    font-size: clamp(38px, 7vw, 68px);
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.home h3 {
+    font-size: clamp(22px, 4vw, 30px);
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+@keyframes blazeGlow {
+    from {
+        transform: translateX(-50%) scale(0.9);
+        opacity: 0.08;
+    }
+
+    to {
+        transform: translateX(-50%) scale(1.15);
+        opacity: 0.18;
+    }
+}
+
+/* MOBILE HOME */
+
+@media (max-width: 600px) {
+
+    .home {
+        min-height: 72vh;
+        padding: 60px 15px;
+    }
+
+    .home h1 {
+        line-height: 1.1;
+    }
+
+    .home button {
+        width: 85%;
+        max-width: 300px;
+    }
+}
+/* =================================
+   HOW BLAZE ARMY WORKS
+================================= */
+
+.process-box {
+    margin-top: 35px;
+    padding: 25px;
+    background: rgba(10, 10, 10, 0.7);
+    border: 1px solid #333;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.process-box > h3 {
+    text-align: center;
+    color: #ff6600;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.process-step {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    padding: 18px 0;
+    border-bottom: 1px solid #292929;
+}
+
+.process-step:last-child {
+    border-bottom: none;
+}
+
+.process-step span {
+    min-width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff6600;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.process-step h4 {
+    margin: 0 0 7px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.process-step p {
+    margin: 0;
+    font-size: 15px;
+    color: #aaa;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+
+    .process-box {
+        padding: 20px 15px;
+    }
+
+    .process-step {
+        gap: 12px;
+    }
+
+    .process-step span {
+        min-width: 36px;
+        height: 36px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blaze ARMY</title>
+
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <h2>Blaze ARMY</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#pricing">Plans</a>
+            <a href="#contact">Support</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HOME -->
+
+        <section class="home" id="home">
+
+            <h1>Welcome to Blaze ARMY</h1>
+
+            <h3>DREXO BLAZE</h3>
+
+            <p>
+                Creator • Collaboration • Promotion
+            </p>
+
+            <button onclick="document.getElementById('pricing').scrollIntoView({behavior:'smooth'})">
+                Explore Plans
+            </button>
+
+            <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+                Collaborate With Us
+            </button>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section class="about" id="about">
+
+            <h2>About Blaze ARMY</h2>
+
+            <p>
+              <div class="process-box">
+
+    <h3>How Blaze ARMY Works</h3>
+
+    <div class="process-step">
+        <span>01</span>
+        <div>
+            <h4>Content Ideas</h4>
+            <p>
+                We suggest useful video ideas based on the creator's
+                content style, audience and current goals.
+            </p>
+        </div>
+    </div>
+
+    <div class="process-step">
+        <span>02</span>
+        <div>
+            <h4>Upload Planning</h4>
+            <p>
+                We help plan what type of video to upload and choose
+                a suitable time for publishing.
+            </p>
+        </div>
+    </div>
+
+    <div class="process-step">
+        <span>03</span>
+        <div>
+            <h4>Promotion & Collaboration</h4>
+            <p>
+                Genuine collaboration opportunities can include videos,
+                live sessions, comments and creator-to-creator promotion.
+            </p>
+        </div>
+    </div>
+
+    <div class="process-step">
+        <span>04</span>
+        <div>
+            <h4>Real Creator Growth</h4>
+            <p>
+                The goal is to build genuine audience engagement through
+                consistent content, collaboration and better planning.
+            </p>
+        </div>
+    </div>
+
+              </div>
+                Blaze ARMY is a creator-focused platform by DREXO BLAZE
+                for genuine promotion, collaboration and content growth.
+            </p>
+
+            <p>
+                We help creators with video ideas, content planning,
+                upload timing and collaboration opportunities.
+            </p>
+
+            <p>
+                Our process focuses on genuine creator activity,
+                useful content ideas and real collaboration.
+            </p>
+
+            <button onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+                Learn More
+            </button>
+
+        </section>
+
+
+        <!-- SERVICES -->
+
+        <section class="services" id="services">
+
+            <h2>Our Services</h2>
+
+            <div class="service-container">
+
+                <div class="service-card">
+
+                    <h3>Content Ideas</h3>
+
+                    <p>
+                        Get creative video ideas and content planning
+                        to make your channel more engaging.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Promotion</h3>
+
+                    <p>
+                        Genuine promotion and collaboration opportunities
+                        for creators.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Collaboration</h3>
+
+                    <p>
+                        Connect with creators through videos,
+                        live sessions and collaborative content.
+                    </p>
+
+                </div>
+
+
+                <div class="service-card">
+
+                    <h3>Growth Guidance</h3>
+
+                    <p>
+                        Guidance on content timing, video planning
+                        and improving your creator strategy.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRICING -->
+
+        <section class="pricing" id="pricing">
+
+            <h2>Our Plans</h2>
+
+            <div class="pricing-container">
+
+
+                <!-- PLAN 1 -->
+
+                <div class="price-card">
+
+                    <h3>Starter Promotion</h3>
+
+                    <p class="price">₹100</p>
+
+                    <p>
+                        Starter creator promotion package.
+                    </p>
+
+                    <button type="button">
+                        Choose Plan
+                    </button>
+
+                </div>
+
+
+                <!-- PLAN 2 -->
+
+                <div class="price-card">
+
+                    <h3>Creator Promotion</h3>
+
+                    <p class="price">₹200</p>
+
+                    <p>
+                        Extended creator promotion package.
+                    </p>
+
+                    <button type="button">
+                        Choose Plan
+                    </button>
+
+                </div>
+
+
+                <!-- PLAN 3 -->
+
+                <div class="price-card">
+
+                    <h3>Advanced Promotion</h3>
+
+                    <p class="price">₹400</p>
+
+                    <p>
+                        Advanced creator promotion package.
+                    </p>
+
+                    <button type="button">
+                        Choose Plan
+                    </button>
+
+                </div>
+
+
+                <!-- PLAN 4 -->
+
+                <div class="price-card">
+
+                    <h3>Premium Promotion</h3>
+
+                    <p class="price">₹900</p>
+
+                    <p>
+                        Premium creator promotion package.
+                    </p>
+
+                    <button type="button">
+                        Choose Plan
+                    </button>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ORDER FORM -->
+
+        <section id="orderBox" style="display:none;">
+
+            <h2>Place Your Order</h2>
+
+            <p id="selectedPlan">
+                Selected Plan
+            </p>
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="Your Name"
+            >
+
+            <br><br>
+
+            <input
+                type="text"
+                id="channelLink"
+                placeholder="YouTube Channel Link"
+            >
+
+            <br><br>
+
+            <input
+                type="text"
+                id="contactInfo"
+                placeholder="Contact Number / Email"
+            >
+
+            <br><br>
+
+            <button type="button" onclick="submitOrder()">
+                Submit Order
+            </button>
+
+        </section>
+
+
+        <!-- PAYMENT -->
+
+        <section id="paymentBox" class="payment-box">
+
+            <h2>Complete Payment</h2>
+
+            <p id="paymentPlan">
+                Selected Plan: Please select a plan first
+            </p>
+
+            <p class="payment-note">
+                Scan the QR code to make your payment.
+            </p>
+
+
+            <div class="qr-placeholder">
+
+                <p>QR CODE</p>
+
+                <small>
+                    Select a plan to show its payment QR.
+                </small>
+
+                <img
+                    id="paymentQR"
+                    src="starter_100.png"
+                    alt="Blaze ARMY Payment QR"
+                >
+
+            </div>
+
+
+            <p class="payment-note">
+                After payment, enter your transaction/reference ID below.
+            </p>
+
+
+            <input
+                type="text"
+                id="transactionId"
+                placeholder="Transaction / Reference ID"
+            >
+
+            <br><br>
+
+            <button type="button" onclick="verifyPayment()">
+                Submit Payment Details
+            </button>
+
+        </section>
+
+
+        <!-- CUSTOMER SUPPORT -->
+
+        <section class="contact" id="contact">
+
+            <h2>Customer Support</h2>
+
+            <p>
+                Have a question or need help with your order?
+                Contact Blaze ARMY support.
+            </p>
+
+            <button type="button" onclick="openWhatsApp()">
+                Contact Support
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>Blaze ARMY</h3>
+
+        <p>
+            Genuine Promotion • Collaboration • Creator Support
+        </p>
+
+        <p>
+            © 2026 Blaze ARMY | DREXO BLAZE
+        </p>
+
+    </footer>
+
+
+
+    <!-- ========================= -->
+    <!-- JAVASCRIPT -->
+    <!-- ========================= -->
+
+    <script>
+
+        /* =========================
+           PLAN SELECTION
+        ========================= */
+
+        const planButtons =
+            document.querySelectorAll(".price-card button");
+
+
+        planButtons.forEach(function(button) {
+
+            button.addEventListener("click", function() {
+
+                const card =
+                    button.closest(".price-card");
+
+
+                const planName =
+                    card.querySelector("h3").textContent;
+
+
+                const planPrice =
+                    card.querySelector(".price").textContent.trim();
+
+
+                /* Update selected plan */
+
+                document.getElementById("selectedPlan").textContent =
+                    "Selected Plan: " +
+                    planName +
+                    " | Price: " +
+                    planPrice;
+
+
+                /* Update payment plan */
+
+                document.getElementById("paymentPlan").textContent =
+                    "Selected Plan: " +
+                    planName +
+                    " | Price: " +
+                    planPrice;
+
+
+                /* Show order box */
+
+                document.getElementById("orderBox").style.display =
+                    "block";
+
+
+                /* Change QR according to price */
+
+                const qrImage =
+                    document.getElementById("paymentQR");
+
+
+                if (planPrice === "₹100") {
+
+                    qrImage.src = "starter_100.png";
+
+                }
+
+                else if (planPrice === "₹200") {
+
+                    qrImage.src = "creator_200.png";
+
+                }
+
+                else if (planPrice === "₹400") {
+
+                    qrImage.src = "advanced_400.png";
+
+                }
+
+                else if (planPrice === "₹900") {
+
+                    qrImage.src = "premium_900.png";
+
+                }
+
+
+                /* Scroll to order section */
+
+                document.getElementById("orderBox").scrollIntoView({
+                    behavior: "smooth"
+                });
+
+            });
+
+        });
+
+
+
+        /* =========================
+           ORDER SUBMISSION
+        ========================= */
+
+        function submitOrder() {
+
+            const name =
+                document.getElementById("customerName").value.trim();
+
+
+            const channel =
+                document.getElementById("channelLink").value.trim();
+
+
+            const contact =
+                document.getElementById("contactInfo").value.trim();
+
+
+            if (name === "") {
+
+                alert("Please enter your name.");
+
+                return;
+
+            }
+
+
+            if (channel === "") {
+
+                alert("Please enter your YouTube channel link.");
+
+                return;
+
+            }
+
+
+            if (contact === "") {
+
+                alert("Please enter your contact information.");
+
+                return;
+
+            }
+
+
+            alert(
+                "Order details submitted successfully!\n\n" +
+                "Please complete the payment below."
+            );
+
+
+            document.getElementById("paymentBox").scrollIntoView({
+                behavior: "smooth"
+            });
+
+        }
+
+
+
+        /* =========================
+           PAYMENT VERIFICATION
+        ========================= */
+
+        function verifyPayment() {
+
+            const transactionId =
+                document.getElementById("transactionId").value.trim();
+
+
+            if (transactionId === "") {
+
+                alert(
+                    "Please enter your transaction/reference ID."
+                );
+
+                return;
+
+            }
+
+
+            alert(
+                "Payment details submitted!\n\n" +
+                "Your payment will be verified manually."
+            );
+
+        }
+
+
+
+        /* =========================
+           WHATSAPP SUPPORT
+        ========================= */
+
+
+function openWhatsApp() {
+
+    const phoneNumber = "917988991568";
+
+    const message =
+        "Hello Blaze ARMY, I need help with my order.";
+
+    const appLink =
+        "whatsapp://send?phone=" +
+        phoneNumber +
+        "&text=" +
+        encodeURIComponent(message);
+
+    window.location.href = appLink;
+
+}
+
+</script>
+
+              
+    </script>
+
+
+</body>
+
+</html>
